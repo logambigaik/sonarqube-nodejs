@@ -17,6 +17,8 @@
 	},
 	"dependencies": {
 		"express": "^4.17.1",
-		"jest-junit": "^11.1.0"
+		"jest-sonar-reporter": "^2.0.0",
+		"sonarqube-scanner": "^2.7.0",
+		"supertest": "^5.0.0"
 	}
 }

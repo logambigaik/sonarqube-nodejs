@@ -5,6 +5,7 @@ sonarqubeScanner(
         options : {
             'sonar.sources':  'src',
             'sonar.tests':  'src',
+            'sonar.projectKey': 'nodejsapp',
             'sonar.inclusions'  :  '**', // Entry point of your code
             'sonar.test.inclusions':  'src/**/*.spec.js,src/**/*.spec.jsx,src/**/*.test.js,src/**/*.test.jsx',
             'sonar.javascript.lcov.reportPaths':  'coverage/lcov.info',
